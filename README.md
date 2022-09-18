@@ -14,18 +14,7 @@
 
 
 ## Languages and Tools
-<div style="display:flex">
-<div >
-<h3>Rapidfire</h3>
-			<ul style="list-style:none; margin:0; padding:0;">
-				<li style="display:grid; grid-template-columns: 1em 1fr; grid-gap:0.25em;"><span>🔭</span> <span>I’m currently working on
-					<a href="https://github.com/snrankin/webpack-stylish-reporter">my own Webpack reporter</a>
-					and my resume site</span></li>
-				<li>🌱 I’m currently learning Typescript and Node</li>
-				<li>❓ Ask me about anything related to WordPress and related technologies</li>
-				<li>⚡ Fun fact: I'm also an artist</li>
-			</ul>
-			</div>
+
 <div align="center" >
 	<a href="https://reactjs.org/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/react-original-wordmark.svg" alt="React" height="25"/></a>
 	<a href="https://getbootstrap.com/docs/3.4/javascript/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/bootstrap-plain.svg" alt="Bootstrap" height="25"/></a>
@@ -52,10 +41,10 @@
 	<a href="https://jquery.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/jquery.png" alt="jQuery" height="25"/></a>
 	<a href="https://woocommerce.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/woocommerce.png" alt="WooCommerce" height="25"/></a>
 </div>
-</div>
+
 ## Github Stats
 
-<table border="0" style="border-color:transparent">
+<table border="0"  rules="none" width="100%">
 	<tr>
 		<td valign="top" width="50%">
 			<img src="generated/languages.svg" style="width: 360px"/>
