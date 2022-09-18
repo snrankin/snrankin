@@ -66,10 +66,10 @@ As a web developer, I see it as my responsibility to make my work as beautiful, 
 <table>
 	<tr>
 		<td valign="top" width="50%">
-			<img src="https://github-readme-stats.vercel.app/api?username=snrankin&show_icons=true&count_private=true&hide_border=true" align="left" style="width: 100%"/>
+			<img src="generated/languages.svg" style="width: 100%"/>
 		</td>
 		<td valign="top" width="50%">
-			<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=snrankin&hide_border=true&layout=compact" align="left" style="width: 100%"/>
+			<img src="generated/overview.svg" style="width: 100%"/>
 		</td>
 	</tr>
 </table>
