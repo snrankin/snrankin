@@ -8,31 +8,25 @@
 	<a href="https://dev.to/dhanushkadev" target="_blank"><img src="https://img.shields.io/badge/DEV-%230A0A0A.svg?&style=flat-square&logo=DEV.to&logoColor=white" alt="DEV.to"></a>
 </div>
 
+<h2>About me</h2>
+<p>From the moment I coded my first microsite in 2010 to now, I have yet to lose the wonder that coding has given me. To be able to string together characters and create these rich, interactive experiences on screen feels like I’m casting a spell. What’s even more amazing is how these digital experiences allow people to access things they might not have without it, things like education, products, and community.</p>
+<p>As a web developer, I see it as my responsibility to make my work as beautiful, intuitive, and accessible as I possible can, no matter the screen size.</p>
 
-<table border="0" style="border:none">
-	<tr>
-		<td valign="top" width="67%">
-			<h2>About me</h2>
-			<p>From the moment I coded my first microsite in 2010 to now, I have yet to lose the wonder that coding has given me. To be able to string together characters and create these rich, interactive experiences on screen feels like I’m casting a spell. What’s even more amazing is how these digital experiences allow people to access things they might not have without it, things like education, products, and community.</p>
-			<p>As a web developer, I see it as my responsibility to make my work as beautiful, intuitive, and accessible as I possible can, no matter the screen size.</p>
-		</td>
-		<td valign="top" width="33%">
-			<h3>Rapidfire</h3>
-			<ul>
-				<li>🔭 I’m currently working on
+
+## Languages and Tools
+<div style="display:flex">
+<div >
+<h3>Rapidfire</h3>
+			<ul style="list-style:none; margin:0; padding:0;">
+				<li style="display:grid; grid-template-columns: 1em 1fr; grid-gap:0.25em;"><span>🔭</span> <span>I’m currently working on
 					<a href="https://github.com/snrankin/webpack-stylish-reporter">my own Webpack reporter</a>
-					and my resume site</li>
+					and my resume site</span></li>
 				<li>🌱 I’m currently learning Typescript and Node</li>
 				<li>❓ Ask me about anything related to WordPress and related technologies</li>
 				<li>⚡ Fun fact: I'm also an artist</li>
 			</ul>
-		</td>
-	</tr>
-</table>
-
-## Languages and Tools
-
-<div align="center">
+			</div>
+<div align="center" >
 	<a href="https://reactjs.org/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/react-original-wordmark.svg" alt="React" height="25"/></a>
 	<a href="https://getbootstrap.com/docs/3.4/javascript/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/bootstrap-plain.svg" alt="Bootstrap" height="25"/></a>
 	<a href="https://www.w3schools.com/css/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/css3-original-wordmark.svg" alt="CSS3" height="25"/></a>
@@ -58,7 +52,7 @@
 	<a href="https://jquery.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/jquery.png" alt="jQuery" height="25"/></a>
 	<a href="https://woocommerce.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/woocommerce.png" alt="WooCommerce" height="25"/></a>
 </div>
-
+</div>
 ## Github Stats
 
 <table border="0">
