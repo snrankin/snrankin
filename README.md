@@ -55,7 +55,7 @@
 </div>
 ## Github Stats
 
-<table border="0">
+<table border="0" style="border-color:transparent">
 	<tr>
 		<td valign="top" width="50%">
 			<img src="generated/languages.svg" style="width: 360px"/>
