@@ -13,9 +13,58 @@ on:
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
+env:
+  CI: true
+  FORCE_COLOR: 2
+  DEBUG_COLORS: 1
+
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  # This workflow contains a single job called "build"
+  stats:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Sequence of tasks that will be executed as part of the job
+    steps:
+      # Checks-out repository under $GITHUB_WORKSPACE, so the job can access it
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      # Run using Python 3.8 for consistency and aiohttp
+      - name: Set up Python 3.8
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.8'
+          architecture: 'x64'
+
+      # Cache dependencies. From:
+      # https://github.com/actions/cache/blob/master/examples.md#python---pip
+      - uses: actions/cache@v2
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
+
+      # Install dependencies with `pip`
+      - name: Install requirements
+        run: |
+          python3 -m pip install --upgrade pip setuptools wheel
+          python3 -m pip install -r requirements.txt
+
+      # Generate all statistics images
+      - name: Generate images
+        run: |
+          python3 --version
+          python3 generate_images.py
+        env:
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+
+      # Commits all changed files to the repository
+      - name: Commit to the repo
+        uses: actions-go/push@master
+        with:
+          commit-message: 'Updating stats images'
   metrics:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
@@ -42,4 +91,5 @@ jobs:
           plugin_languages: yes
           plugin_stars: yes
           plugin_gists: yes
+          token: ${{ secrets.METRICS_TOKEN }}
           config_order: base, introduction, languages, stars, gists
