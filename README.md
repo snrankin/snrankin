@@ -8,11 +8,6 @@
 
 
 
-# About me
-<p>From the moment I coded my first microsite in 2010 to now, I have yet to lose the wonder that coding has given me. To be able to string together characters and create these rich, interactive experiences on screen feels like I’m casting a spell. What’s even more amazing is how these digital experiences allow people to access things they might not have without it, things like education, products, and community.</p>
-<p>As a web developer, I see it as my responsibility to make my work as **beautiful, intuitive, and accessible** as I possible can, no matter the screen size.</p>
-
-
 ## Languages and Tools
 
 ![Adobe Creative Cloud](https://img.shields.io/badge/Adobe%20Creative%20Cloud-DA1F26.svg?style=for-the-badge&logo=Adobe%20Creative%20Cloud&logoColor=white)
