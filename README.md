@@ -18,7 +18,7 @@
  ![JavaScript](https://img.shields.io/badge/javascript-%23F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=%23323330) ![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![macOS](https://img.shields.io/badge/mac%20os-000000?style=for-the-badge&logo=apple&logoColor=F0F0F0) ![ESLint](https://img.shields.io/badge/ESLint-4a32c3?style=for-the-badge&logo=eslint&logoColor=white) ![Notion](https://img.shields.io/badge/Notion-%23000000.svg?style=for-the-badge&logo=notion&logoColor=white) ![Jira](https://img.shields.io/badge/jira-0052cc.svg?style=for-the-badge&logo=jira&logoColor=white)
  ![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white) ![WordPress](https://img.shields.io/badge/WordPress-30353b.svg?style=for-the-badge&logo=WordPress&logoColor=white) ![Bitbucket](https://img.shields.io/badge/bitbucket-0052cc.svg?style=for-the-badge&logo=bitbucket&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
  
-![https://github-readme-linkedin-kappa.vercel.app/experience?username=snrankin]
+![LinkedIn Experience](https://github-readme-linkedin-kappa.vercel.app/experience?username=snrankin)
 
 
 | ![Most used languages](generated/languages.svg) | ![My GitHub statistics](generated/overview.svg) |
