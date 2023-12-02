@@ -1,6 +1,6 @@
 
 
-# ![Hi! My name is Sam Rankin and I am a full stack web developer from Phoenix AZ](./hero.svg)
+# ![Hi! My name is Sam Rankin and I am a full stack web developer from Phoenix AZ](https://samrankin.dev/hero-light.svg)
 
 <div align="center">
 
